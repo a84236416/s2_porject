@@ -1,4 +1,4 @@
-package task;
+package 第二张第五题;
 
 public class Fish extends Animal {
     public String weight;

@@ -1,4 +1,4 @@
-package task;
+package 第二张第五题;
 
 public abstract class Animal {
     public int age;

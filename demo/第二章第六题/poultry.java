@@ -1,8 +1,4 @@
-package task1;
-
-import org.omg.Messaging.SyncScopeHelper;
-
-import java.sql.SQLOutput;
+package 第二章第六题;
 
 public class poultry {
     public String name;

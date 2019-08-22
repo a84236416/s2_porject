@@ -1,4 +1,4 @@
-package taks2;
+package 动物捕猎;
 
 public class lion extends animal {
     public lion(String name, String hunt, String speak) {
