@@ -1,6 +1,30 @@
 package 动物捕猎;
 
 public class animal {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHunt() {
+        return hunt;
+    }
+
+    public void setHunt(String hunt) {
+        this.hunt = hunt;
+    }
+
+    public String getSpeak() {
+        return speak;
+    }
+
+    public void setSpeak(String speak) {
+        this.speak = speak;
+    }
+
     public  String name;
     public  String hunt;
     public  String speak;
