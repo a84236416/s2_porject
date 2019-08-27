@@ -1,7 +1,8 @@
 package 第三章.第五题;
 
 public class DotMatrixPrinter extends printer {
-    private  String type;
+    private String type;
+
     public String getType() {
         return type;
     }
@@ -9,13 +10,15 @@ public class DotMatrixPrinter extends printer {
     public void setType(String type) {
         this.type = type;
     }
-    public DotMatrixPrinter(String Printer,String type){
+
+    public DotMatrixPrinter(String Printer, String type) {
         super(Printer);
-        this.type=type;
+        this.type = type;
     }
+
     @Override
-    public  void  print(){
-        System.out.println("我是"+this.type+","+this .getPrinte());
+    public void print() {
+        System.out.println("我是" + this.type + "," + this.getPrinte());
     }
 }
 

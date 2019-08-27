@@ -1,7 +1,8 @@
 package 第三章.第五题;
 
-public class LaserPrinter extends printer{
+public class LaserPrinter extends printer {
     private String laser;
+
     public String getLaser() {
         return laser;
     }
@@ -9,13 +10,15 @@ public class LaserPrinter extends printer{
     public void setLaser(String laser) {
         this.laser = laser;
     }
-    public  LaserPrinter(String Printer,String laser){
+
+    public LaserPrinter(String Printer, String laser) {
         super(Printer);
-        this.laser=laser;
+        this.laser = laser;
 
     }
+
     @Override
-    public void  print(){
-        System.out.println("我是"+this.laser+","+this .getPrinte());
+    public void print() {
+        System.out.println("我是" + this.laser + "," + this.getPrinte());
     }
 }
